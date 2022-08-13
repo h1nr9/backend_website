@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Assignment.scss","pages/Assignment.css"],"names":[],"mappings":"AAAA;EAEQ,WAAW;EACX,YAAY;ACApB","file":"Assignment.css","sourcesContent":[".flex-shrink-0{\n    img{\n        width: 40px;\n        height: 40px;\n    }\n}",".flex-shrink-0 img {\n  width: 40px;\n  height: 40px;\n}\n"]}
