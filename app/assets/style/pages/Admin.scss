@@ -1,0 +1,15 @@
+tbody{
+    a{
+        color:black;
+        &:hover{
+            color: $primary;
+        }
+    }
+}
+.page-item:hover{
+    
+}
+.page-link:hover{
+    background:$primary;
+    color: white !important;
+}
