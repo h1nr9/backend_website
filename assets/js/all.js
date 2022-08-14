@@ -1,6 +1,10 @@
 "use strict";
 
-$(function () {
-  console.log('Hello Bootstrap5');
+ClassicEditor.create(document.querySelector("#editor"), {
+  placeholder: "Reply an answer…"
+}).then(function (editor) {
+  console.log(editor);
+})["catch"](function (error) {
+  console.error(error);
 });
 //# sourceMappingURL=all.js.map

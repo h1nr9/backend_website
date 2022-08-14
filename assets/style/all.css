@@ -235,7 +235,7 @@ sup {
 
 a {
   color: #198754;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -3754,7 +3754,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -4400,7 +4399,7 @@ fieldset:disabled .btn {
 .btn-link {
   font-weight: 400;
   color: #198754;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:hover {
@@ -4730,7 +4729,6 @@ fieldset:disabled .btn {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -4948,7 +4946,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #198754;
-  text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5088,7 +5085,6 @@ fieldset:disabled .btn {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -6076,7 +6072,6 @@ fieldset:disabled .btn {
   position: relative;
   display: block;
   color: #198754;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -6418,7 +6413,6 @@ fieldset:disabled .btn {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -16003,10 +15997,6 @@ img {
   height: 40px;
 }
 
-nav {
-  margin-bottom: 300px;
-}
-
 nav a {
   color: black !important;
   text-decoration: none;
@@ -16028,6 +16018,24 @@ nav a:hover {
 .flex-shrink-0 img {
   width: 40px;
   height: 40px;
+}
+
+.ck-editor__editable[role="textbox"] {
+  /* editing area */
+  min-height: 280px;
+}
+
+tbody a {
+  color: black;
+}
+
+tbody a:hover {
+  color: #198754;
+}
+
+.page-link:hover {
+  background: #198754;
+  color: white !important;
 }
 
 /*# sourceMappingURL=all.css.map */
