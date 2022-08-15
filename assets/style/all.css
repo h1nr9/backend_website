@@ -15992,6 +15992,10 @@ img {
   vertical-align: middle;
 }
 
+span:hover {
+  opacity: 0.5;
+}
+
 .nav-footer-pic {
   width: 40px;
   height: 40px;
@@ -16025,6 +16029,10 @@ nav a:hover {
   min-height: 280px;
 }
 
+span:hover {
+  opacity: 0.5;
+}
+
 tbody a {
   color: black;
 }
@@ -16036,6 +16044,15 @@ tbody a:hover {
 .page-link:hover {
   background: #198754;
   color: white !important;
+}
+
+.addNew:hover {
+  color: #198754;
+}
+
+.modal-img {
+  height: 141px;
+  width: 141px;
 }
 
 /*# sourceMappingURL=all.css.map */
