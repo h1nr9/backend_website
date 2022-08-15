@@ -16029,10 +16029,6 @@ nav a:hover {
   min-height: 280px;
 }
 
-span:hover {
-  opacity: 0.5;
-}
-
 tbody a {
   color: black;
 }
@@ -16050,9 +16046,9 @@ tbody a:hover {
   color: #198754;
 }
 
-.modal-img {
+.modal-img img {
   height: 141px;
-  width: 141px;
+  max-width: 141px;
 }
 
 /*# sourceMappingURL=all.css.map */
