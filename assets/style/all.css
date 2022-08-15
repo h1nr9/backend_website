@@ -16029,6 +16029,11 @@ nav a:hover {
   min-height: 280px;
 }
 
+.ck.ck-editor__editable > .ck-placeholder::before {
+  color: #ced4da;
+  padding-left: 10px;
+}
+
 tbody a {
   color: black;
 }
