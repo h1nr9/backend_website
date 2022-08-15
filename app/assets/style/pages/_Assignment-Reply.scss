@@ -2,8 +2,9 @@
     /* editing area */
     min-height: 280px;
 }
-
-span:hover{
-    opacity: 0.5;
+.ck.ck-editor__editable > .ck-placeholder::before {
+    color: $gray-400;
+    padding-left: 10px;
 }
+
 

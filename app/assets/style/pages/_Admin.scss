@@ -14,7 +14,9 @@ tbody{
 .addNew:hover{
     color: $primary;
 }
-.modal-img{
+.modal-img {
+    img{
     height: 141px;
-    width: 141px;
+    max-width: 141px;
+    }
 }
